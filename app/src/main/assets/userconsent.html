@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="policy.css">
+    <title>[YOURAPPNAME]: User Consent</title>
+</head>
+
+<body class="center">
+
+<header>
+    Zodiac TicTacToe: USER CONSENT
+</header>
+
+<section>
+    <h2>End User Agreement</h2>
+    <p> Players are agreeing to the collection and utilization of their data, as outlined in the Data Policy. This encompasses the specific categories of data gathered, the purposes for its usage, and the entities with whom it may be shared. By giving consent, players also affirm that they are granting permission for us to gather this data. If there are concerns about data privacy, players have the right to uninstall this app. For inquiries about the data we collect, players can contact us via <u>developer@alamangbee.site</u>.</p>
+</section>
+    <form action="#" method="post" id="consentForm">
+        <label for="privacyCheckbox">
+            <input type="checkbox" id="privacyCheckbox" name="privacyCheckbox" onclick="checkRadio()" required>
+            I have read and agree to the <u> <a href="policy.html">Data and Privacy Policy</a></u>.
+        </label>
+
+        <label for="conditionCheckbox">
+            <input type="checkbox" id="conditionCheckbox" name="conditionCheckbox" onclick="checkRadio()" required>
+            I have read and agree to the <u> <a href="terms.html">Terms and Conditions</a></u>.
+        </label>
+
+        <button type="button" id="continuebtn" onclick="checkSubmit()" disabled>Agree</button>
+        <button type="button" id="dismissbtn" onclick="checkDismiss()">Close App</button>
+    </form>
+</body>
+
+<script src="policy.js"></script>
+
+</html>

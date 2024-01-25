@@ -1,0 +1,13 @@
+package dev.cdrck.mdgtictoe.exts
+
+infix fun Int.countMod(with: Int): Int {
+	var num = this
+	var count = 0
+	
+	while (num >= with) {
+		num -= with
+		count++
+	}
+	
+	return count
+}

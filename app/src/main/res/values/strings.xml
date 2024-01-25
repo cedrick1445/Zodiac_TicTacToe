@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Zodiac tictactoe</string>
+    <string name="web_access_for_html_data_consent">Web Access for HTML Data Consent</string>
+    <string name="user_consent">User Consent</string>
+    <string name="game_application">Game Application</string>
+    <string name="web_view">Web View</string>
+</resources>
